@@ -98,8 +98,8 @@ nav ul li{
 nav ul li a{
     position: relative;
 }
-nav .menu ul li a.title{
-    font: 400 1rem var(--body-font);
+nav.menu ul li a.title{
+    font: 400 var(--title-font) var(--body-font);
     --webkit-font-smoothing: antialiased;
 }
 nav ul li a:hover{
